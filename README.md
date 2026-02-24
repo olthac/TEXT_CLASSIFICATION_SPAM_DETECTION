@@ -15,6 +15,9 @@ A modular Text Classification system designed to identify SMS Spam using Machine
 - **API:** FastAPI + Uvicorn
 - **Data:** Pandas
 
+## Environment
+python -m venv venv
+
 ## How to Run
 1. **Install Dependencies:**
    `pip install pandas scikit-learn fastapi uvicorn`
