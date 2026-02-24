@@ -22,9 +22,13 @@ python -m venv venv
 
 ## How to Run
 1. **Install Dependencies:**
-   `pip install pandas scikit-learn fastapi uvicorn`
+   `pip install pandas`
+   `pip install scikit-learn`
    `pip install fastapi`
    `pip install uvicorn`
+   `pip install seaborn`
+   `pip install matplotlib`
+   `pip install collection`
 
 3. **Train the Model:**
    `python model_trainer.py` (This generates `model.pkl` and `tfidf.pkl`)
